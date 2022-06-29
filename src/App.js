@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
+import Average from "./components/Average/Average";
 import Login from "./components/Login/Login";
 import EmptyInputModal from "./components/Modal/EmptyInputModal";
 import NewPeople from "./components/NewPeople/NewPeople";
@@ -40,9 +41,12 @@ const App = () => {
 
   return (
     <>
-      <Login />
+      <Average />
 
-      {/* usestate, props, modal 연습
+      {/* useReducer, useEffect 연습 */}
+      {/* <Login /> */}
+
+      {/*   usestate, props, modal 연습
     <EmptyInputModal emptyName={emptyName} emptyAge={emptyAge} resetModal={resetModal} />
     <NewPeople addPeople={addPeople} setEmptyName={setEmptyName} setEmptyAge={setEmptyAge} />
     <People people={people}/>
