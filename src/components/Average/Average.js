@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 
 const Average = () => {
   const [numbers, setNumbers] = useState([]);
